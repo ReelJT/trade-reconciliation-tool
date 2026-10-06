@@ -1,0 +1,21 @@
+break_type,trade_id,note
+MISSING_AT_BROKER,T0042,No broker confirm received
+MISSING_AT_BROKER,T0028,No broker confirm received
+MISSING_INTERNAL,T0135,Executed at broker but never booked internally
+QUANTITY_BREAK,T0095,Booked 100 shares too many internally
+QUANTITY_BREAK,T0167,Booked 100 shares too many internally
+PRICE_BREAK,T0131,Internal price off by $0.25
+PRICE_BREAK,T0040,Internal price off by $0.25
+WITHIN_TOLERANCE,T0109,Broker rounded price to 2 decimals (should NOT be a break)
+WITHIN_TOLERANCE,T0039,Broker rounded price to 2 decimals (should NOT be a break)
+WITHIN_TOLERANCE,T0069,Broker rounded price to 2 decimals (should NOT be a break)
+SIDE_BREAK,T0005,Booked as the wrong side internally
+SETTLE_DATE_BREAK,T0057,Internal settle date is T+2 instead of T+1
+COMMISSION_BREAK,T0081,Commission double counted internally
+NO_REFERENCE,T0115,Broker confirm missing client ref (should still match)
+NO_REFERENCE,T0090,Broker confirm missing client ref (should still match)
+NO_REFERENCE,T0054,Broker confirm missing client ref (should still match)
+NO_REFERENCE,T0113,Broker confirm missing client ref (should still match)
+DUPLICATE_CONFIRM,T0064,Same confirm received twice
+CORPORATE_ACTION,,NVDA 2 for 1 split not booked internally
+UNBOOKED_CASH,,"KO dividend of $4,250.00 received at bank, not booked internally"
